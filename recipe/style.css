@@ -1,0 +1,45 @@
+body {
+    background-color: #FFDAB9;
+    display: flex;
+    justify-content:center;
+    height:auto; /* Full viewport height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 600px;
+    max-width: calc(100% - 100px); /* Adjust as necessary */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 50px; /* Adjust as necessary */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto; /* Add overflow property if necessary */
+}
+.cls {
+    position: relative;
+}
+
+.cls img {
+    border-radius: 20px; /* Rounded corners for the image */
+    width: 100%; /* Ensure image fills container horizontally */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+#new {
+justify-content:left;
+    padding: 10px; /* Add padding inside the 'new' div */
+}
+
+#new2 {
+    background-color: #FFC0CB; /* Baby pink background color */
+    padding: 10px; /* Add padding inside the 'new2' div */
+    border-radius: 10px; /* Rounded corners for the section */
+}
+span{
+margin:100px;
+}
